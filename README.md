@@ -1,9 +1,9 @@
-# Terry — Desktop AI Assistant
+# Terry - Desktop AI Assistant
 
-Local desktop assistant with a GUI. Uses Ollama (a locally running LLM) instead of cloud OpenAI — fully offline-capable. Agent system with chat memory, executor for actions, Tkinter GUI.
+Local desktop assistant with a GUI. Uses Ollama (a locally running LLM) instead of cloud OpenAI, fully offline-capable. Agent system with chat memory, executor for actions, Tkinter GUI.
 
 ## Stack
-Python 3.x — Ollama, Tkinter (see `requirements.txt`)
+Python 3.x Ollama, Tkinter (see `requirements.txt`)
 
 ## Setup
 1. Install Ollama: https://ollama.com
