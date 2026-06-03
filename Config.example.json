@@ -1,0 +1,5 @@
+{
+  "_comment": "Beispiel-Config. Kopieren als Config.json und Werte eintragen.",
+  "ollama_model": "llama3.2",
+  "ollama_url": "http://localhost:11434"
+}
