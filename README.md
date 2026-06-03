@@ -1,14 +1,14 @@
 # Terry — Desktop AI Assistant
 
-Lokaler Desktop-Assistent mit GUI. Nutzt Ollama (lokales LLM) — voll offline-fähig. Agent-System mit Chat-Memory, Executor für Aktionen, Tkinter-GUI.
+Local desktop assistant with a GUI. Uses Ollama (a locally running LLM) instead of cloud OpenAI — fully offline-capable. Agent system with chat memory, executor for actions, Tkinter GUI.
 
 ## Stack
-Python 3.x — Ollama, Tkinter (siehe `requirements.txt`)
+Python 3.x — Ollama, Tkinter (see `requirements.txt`)
 
 ## Setup
-1. Ollama installieren: https://ollama.com
-2. Modell laden: `ollama pull llama3.2`
-3. Projekt:
+1. Install Ollama: https://ollama.com
+2. Pull a model: `ollama pull llama3.2`
+3. Project:
 
 ```bash
 python -m venv .venv
@@ -16,15 +16,15 @@ python -m venv .venv
 pip install -r requirements.txt
 ```
 
-4. `Config.example.json` → `Config.json` kopieren, anpassen
-5. Start:
+4. Copy `Config.example.json` → `Config.json` and adjust values
+5. Run:
 
 ```bash
 python Main.py
-# oder
+# or
 start_jarvis.bat
 ```
 
-## Hinweis
-- `Config.json` ist gitignored (kann lokale Pfade/Settings enthalten)
-- Logs (`terry.log`, `jarvis.log`, `debug.log`) werden lokal gehalten
+## Note
+- `Config.json` is gitignored (may contain local paths/settings)
+- Log files (`terry.log`, `jarvis.log`, `debug.log`) are kept locally
